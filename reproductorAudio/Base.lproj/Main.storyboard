@@ -43,6 +43,9 @@
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="kYY-s3-ZcB">
                                 <rect key="frame" x="58" y="351" width="204" height="31"/>
+                                <connections>
+                                    <action selector="controlVolumen" destination="BYZ-38-t0r" eventType="valueChanged" id="KWc-Kl-T1u"/>
+                                </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdO-HD-2b2">
                                 <rect key="frame" x="98" y="302" width="42" height="30"/>
@@ -65,6 +68,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="botonShuffle" destination="7YU-mc-AfB" id="H5i-lE-sme"/>
                         <outlet property="imageCover" destination="XnW-0k-H96" id="UHj-7C-kKW"/>
                         <outlet property="selectSong" destination="0EU-v7-2db" id="fUq-bi-kfd"/>
                         <outlet property="titulo" destination="Dig-bt-W6L" id="oen-Wj-zhF"/>

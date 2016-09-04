@@ -17,54 +17,104 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XnW-0k-H96">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XnW-0k-H96">
                                 <rect key="frame" x="60" y="64" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="2Mm-69-kyq"/>
+                                    <constraint firstAttribute="height" constant="200" id="Aaw-QP-e57"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zw1-aZ-ZvM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zw1-aZ-ZvM">
                                 <rect key="frame" x="60" y="302" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Hh7-1T-XA2"/>
+                                    <constraint firstAttribute="height" constant="30" id="UKu-42-MNy"/>
+                                </constraints>
                                 <state key="normal" title="Play"/>
                                 <connections>
                                     <action selector="play" destination="BYZ-38-t0r" eventType="touchUpInside" id="w4s-Xc-kkM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPU-c2-K10">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPU-c2-K10">
                                 <rect key="frame" x="156" y="302" width="32" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AGi-lF-Hr4"/>
+                                    <constraint firstAttribute="width" constant="32" id="dzV-FZ-CYR"/>
+                                </constraints>
                                 <state key="normal" title="Stop"/>
                                 <connections>
                                     <action selector="stop" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9Q-vl-iba"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YU-mc-AfB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YU-mc-AfB">
                                 <rect key="frame" x="204" y="302" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="58S-3g-XP3"/>
+                                    <constraint firstAttribute="width" constant="50" id="drV-DR-vcr"/>
+                                </constraints>
                                 <state key="normal" title="Shuffle"/>
                                 <connections>
                                     <action selector="shuffle" destination="BYZ-38-t0r" eventType="touchUpInside" id="TEY-Ht-z6f"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="kYY-s3-ZcB">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="kYY-s3-ZcB">
                                 <rect key="frame" x="58" y="351" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0ea-DE-pwa"/>
+                                    <constraint firstAttribute="height" constant="30" id="oPc-L4-Fwx"/>
+                                </constraints>
                                 <connections>
                                     <action selector="controlVolumen" destination="BYZ-38-t0r" eventType="valueChanged" id="KWc-Kl-T1u"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdO-HD-2b2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdO-HD-2b2">
                                 <rect key="frame" x="98" y="302" width="42" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="1hf-DP-l5f"/>
+                                    <constraint firstAttribute="height" constant="30" id="iQT-wJ-8N3"/>
+                                </constraints>
                                 <state key="normal" title="Pause"/>
                                 <connections>
                                     <action selector="pause" destination="BYZ-38-t0r" eventType="touchUpInside" id="gny-Hl-duD"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0EU-v7-2db">
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0EU-v7-2db">
                                 <rect key="frame" x="0.0" y="398" width="320" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="Mkz-GO-tjR"/>
+                                    <constraint firstAttribute="width" constant="320" id="lNn-Pp-482"/>
+                                </constraints>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Título del disco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dig-bt-W6L">
-                                <rect key="frame" x="100" y="35" width="121" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Título del disco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dig-bt-W6L">
+                                <rect key="frame" x="20" y="35" width="280" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="N0Q-yh-8Gu"/>
+                                    <constraint firstAttribute="width" constant="280" id="Sm6-2Z-ZH1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kYY-s3-ZcB" firstAttribute="centerX" secondItem="0EU-v7-2db" secondAttribute="centerX" id="0AV-sG-CTw"/>
+                            <constraint firstItem="kYY-s3-ZcB" firstAttribute="top" secondItem="zw1-aZ-ZvM" secondAttribute="bottom" constant="19" id="1pP-g8-1GN"/>
+                            <constraint firstItem="vPU-c2-K10" firstAttribute="baseline" secondItem="7YU-mc-AfB" secondAttribute="baseline" id="4ew-AW-HWf"/>
+                            <constraint firstItem="0EU-v7-2db" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6t3-Wm-eq1"/>
+                            <constraint firstItem="Dig-bt-W6L" firstAttribute="centerX" secondItem="XnW-0k-H96" secondAttribute="centerX" id="7xY-B8-pot"/>
+                            <constraint firstItem="XnW-0k-H96" firstAttribute="leading" secondItem="zw1-aZ-ZvM" secondAttribute="leading" id="9wn-qt-5cH"/>
+                            <constraint firstItem="zw1-aZ-ZvM" firstAttribute="leading" secondItem="kYY-s3-ZcB" secondAttribute="leading" id="AtU-OQ-Hqt"/>
+                            <constraint firstItem="bdO-HD-2b2" firstAttribute="leading" secondItem="zw1-aZ-ZvM" secondAttribute="trailing" constant="8" symbolic="YES" id="Btw-ON-fcx"/>
+                            <constraint firstItem="7YU-mc-AfB" firstAttribute="leading" secondItem="vPU-c2-K10" secondAttribute="trailing" constant="16" id="JXd-fB-j5h"/>
+                            <constraint firstItem="zw1-aZ-ZvM" firstAttribute="baseline" secondItem="bdO-HD-2b2" secondAttribute="baseline" id="PTx-lq-Yzl"/>
+                            <constraint firstItem="XnW-0k-H96" firstAttribute="top" secondItem="Dig-bt-W6L" secondAttribute="bottom" constant="8" symbolic="YES" id="ixQ-2E-789"/>
+                            <constraint firstItem="vPU-c2-K10" firstAttribute="leading" secondItem="bdO-HD-2b2" secondAttribute="trailing" constant="16" id="lO8-1p-fv1"/>
+                            <constraint firstItem="0EU-v7-2db" firstAttribute="top" secondItem="kYY-s3-ZcB" secondAttribute="bottom" constant="17" id="ngZ-VU-otJ"/>
+                            <constraint firstItem="bdO-HD-2b2" firstAttribute="baseline" secondItem="vPU-c2-K10" secondAttribute="baseline" id="rz3-nQ-3Ue"/>
+                            <constraint firstItem="Dig-bt-W6L" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="xdA-IZ-5fp"/>
+                            <constraint firstItem="0EU-v7-2db" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="zdz-BK-LbR"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -77,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="446" y="422"/>
+            <point key="canvasLocation" x="422" y="412"/>
         </scene>
     </scenes>
 </document>

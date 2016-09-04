@@ -14,6 +14,17 @@
 		C42B2F5C1D7C9B5D00BEEA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F5A1D7C9B5D00BEEA63 /* LaunchScreen.storyboard */; };
 		C42B2F671D7C9B5D00BEEA63 /* reproductorAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B2F661D7C9B5D00BEEA63 /* reproductorAudioTests.swift */; };
 		C42B2F721D7C9B5D00BEEA63 /* reproductorAudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B2F711D7C9B5D00BEEA63 /* reproductorAudioUITests.swift */; };
+		C42B2F8A1D7CA09000BEEA63 /* door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F7F1D7CA09000BEEA63 /* door.jpg */; };
+		C42B2F8B1D7CA09000BEEA63 /* Door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F801D7CA09000BEEA63 /* Door.mp3 */; };
+		C42B2F8C1D7CA09000BEEA63 /* love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F811D7CA09000BEEA63 /* love.jpg */; };
+		C42B2F8D1D7CA09000BEEA63 /* Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F821D7CA09000BEEA63 /* Love.mp3 */; };
+		C42B2F8E1D7CA09000BEEA63 /* shake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F831D7CA09000BEEA63 /* shake.jpg */; };
+		C42B2F8F1D7CA09000BEEA63 /* Shake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F841D7CA09000BEEA63 /* Shake.mp3 */; };
+		C42B2F901D7CA09000BEEA63 /* surfin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F851D7CA09000BEEA63 /* surfin.jpg */; };
+		C42B2F911D7CA09000BEEA63 /* Surfin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F861D7CA09000BEEA63 /* Surfin.mp3 */; };
+		C42B2F921D7CA09000BEEA63 /* surfin.png in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F871D7CA09000BEEA63 /* surfin.png */; };
+		C42B2F931D7CA09000BEEA63 /* thunderstruck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F881D7CA09000BEEA63 /* thunderstruck.jpg */; };
+		C42B2F941D7CA09000BEEA63 /* Thunderstruck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C42B2F891D7CA09000BEEA63 /* Thunderstruck.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		C42B2F6D1D7C9B5D00BEEA63 /* reproductorAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reproductorAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42B2F711D7C9B5D00BEEA63 /* reproductorAudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reproductorAudioUITests.swift; sourceTree = "<group>"; };
 		C42B2F731D7C9B5D00BEEA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42B2F7F1D7CA09000BEEA63 /* door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = door.jpg; sourceTree = "<group>"; };
+		C42B2F801D7CA09000BEEA63 /* Door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Door.mp3; sourceTree = "<group>"; };
+		C42B2F811D7CA09000BEEA63 /* love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = love.jpg; sourceTree = "<group>"; };
+		C42B2F821D7CA09000BEEA63 /* Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Love.mp3; sourceTree = "<group>"; };
+		C42B2F831D7CA09000BEEA63 /* shake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shake.jpg; sourceTree = "<group>"; };
+		C42B2F841D7CA09000BEEA63 /* Shake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shake.mp3; sourceTree = "<group>"; };
+		C42B2F851D7CA09000BEEA63 /* surfin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surfin.jpg; sourceTree = "<group>"; };
+		C42B2F861D7CA09000BEEA63 /* Surfin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Surfin.mp3; sourceTree = "<group>"; };
+		C42B2F871D7CA09000BEEA63 /* surfin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surfin.png; sourceTree = "<group>"; };
+		C42B2F881D7CA09000BEEA63 /* thunderstruck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thunderstruck.jpg; sourceTree = "<group>"; };
+		C42B2F891D7CA09000BEEA63 /* Thunderstruck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thunderstruck.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,17 @@
 		C42B2F501D7C9B5D00BEEA63 /* reproductorAudio */ = {
 			isa = PBXGroup;
 			children = (
+				C42B2F7F1D7CA09000BEEA63 /* door.jpg */,
+				C42B2F801D7CA09000BEEA63 /* Door.mp3 */,
+				C42B2F811D7CA09000BEEA63 /* love.jpg */,
+				C42B2F821D7CA09000BEEA63 /* Love.mp3 */,
+				C42B2F831D7CA09000BEEA63 /* shake.jpg */,
+				C42B2F841D7CA09000BEEA63 /* Shake.mp3 */,
+				C42B2F851D7CA09000BEEA63 /* surfin.jpg */,
+				C42B2F861D7CA09000BEEA63 /* Surfin.mp3 */,
+				C42B2F871D7CA09000BEEA63 /* surfin.png */,
+				C42B2F881D7CA09000BEEA63 /* thunderstruck.jpg */,
+				C42B2F891D7CA09000BEEA63 /* Thunderstruck.mp3 */,
 				C42B2F511D7C9B5D00BEEA63 /* AppDelegate.swift */,
 				C42B2F531D7C9B5D00BEEA63 /* ViewController.swift */,
 				C42B2F551D7C9B5D00BEEA63 /* Main.storyboard */,
@@ -233,8 +266,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42B2F5C1D7C9B5D00BEEA63 /* LaunchScreen.storyboard in Resources */,
+				C42B2F8C1D7CA09000BEEA63 /* love.jpg in Resources */,
+				C42B2F911D7CA09000BEEA63 /* Surfin.mp3 in Resources */,
+				C42B2F901D7CA09000BEEA63 /* surfin.jpg in Resources */,
+				C42B2F931D7CA09000BEEA63 /* thunderstruck.jpg in Resources */,
 				C42B2F591D7C9B5D00BEEA63 /* Assets.xcassets in Resources */,
+				C42B2F8B1D7CA09000BEEA63 /* Door.mp3 in Resources */,
+				C42B2F8E1D7CA09000BEEA63 /* shake.jpg in Resources */,
 				C42B2F571D7C9B5D00BEEA63 /* Main.storyboard in Resources */,
+				C42B2F941D7CA09000BEEA63 /* Thunderstruck.mp3 in Resources */,
+				C42B2F921D7CA09000BEEA63 /* surfin.png in Resources */,
+				C42B2F8D1D7CA09000BEEA63 /* Love.mp3 in Resources */,
+				C42B2F8A1D7CA09000BEEA63 /* door.jpg in Resources */,
+				C42B2F8F1D7CA09000BEEA63 /* Shake.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
